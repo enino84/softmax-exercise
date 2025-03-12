@@ -1,29 +1,5 @@
 ---
-
-## **📌 README**
-
-# 🚀 Softmax Exercise - Deep Learning Assignment
-
-This repository contains a hands-on coding exercise where you will **implement the Softmax function** in Python. This function is a crucial component in neural networks for multi-class classification.
-
-The exercise runs **entirely inside a Docker container**, ensuring a consistent execution environment.
-
----
-
-## 📖 Overview
-
-In this exercise, you will:
-
-✔️ Implement the **softmax function** from scratch.  
-✔️ Ensure **numerical stability** for large input values.  
-✔️ Validate your implementation using **unit tests**.  
-Got it! Here's the **final `README.md`**, where **Docker is the only way** to run the exercise. This ensures a controlled and reproducible environment.
-
----
-
-## **📌 README.md (Final Version)**
-```md
-# 🚀 Softmax Exercise - Deep Learning Assignment
+# 🚀 Softmax Exercise 
 
 This repository contains a hands-on coding exercise where you will **implement the Softmax function** in Python. This function is a crucial component in neural networks for multi-class classification.
 
