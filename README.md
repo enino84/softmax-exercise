@@ -1,10 +1,3 @@
-Here is the updated README to reflect the correct structure and ensure accuracy with the provided directory layout:  
-
----
-
-### **Updated README.md**  
-
-```markdown
 # 🚀 Softmax Exercise 
 
 This repository contains a hands-on coding exercise where you will **implement the Softmax function** in Python. This function is a crucial component in neural networks for multi-class classification.
@@ -92,13 +85,13 @@ CMD ["jupyter", "notebook", "--ip=0.0.0.0", "--port=8888", "--no-browser", "--al
 
 ## 🎯 Next Steps
 ✅ Implement the **Softmax function** inside `softmax_exercise.ipynb`.  
-✅ Run the provided **unit tests** to verify correctness.  
+✅ Run the provided **unit tests** inside `softmax_exercise.ipynb` to verify correctness.  
 
 ---
 
 ## 📜 License
 This project is open-source under the **MIT License**.
-
+ 
 ---
 
 ### 🎉 You’re all set! Launch the container and start coding! 🚀
