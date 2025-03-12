@@ -106,11 +106,3 @@ This project is open-source under the **MIT License**.
 ### 🎉 You’re all set! Launch the container and start coding! 🚀
 ```
 
----
-
-### **🔥 What’s Different in This Version?**
-✅ **Docker is the only option** → No virtual environments, no manual installs.  
-✅ **Step-by-step commands** → Ensures clarity for users unfamiliar with Docker.  
-✅ **Concise and structured** → Clear sections for running, repository structure, and next steps.  
-
-This version makes **running the exercise effortless** while keeping it professional. Let me know if you need any refinements! 🚀
