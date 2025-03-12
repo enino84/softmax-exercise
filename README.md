@@ -1,6 +1,6 @@
 # 🚀 Softmax Exercise
 
-This repository contains a hands-on coding exercise where you will **implement the Softmax function** in Python. This function is a crucial component in neural networks for multi-class classification.
+This repository contains a hands-on coding exercise where you will **implement a Softmax layer** in Python. This activation layer/function is a crucial component in neural networks for multi-class classification.
 
 The exercise runs **entirely inside a Docker container**, ensuring a consistent execution environment.
 
