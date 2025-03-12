@@ -1,7 +1,7 @@
 ---
 
 ## **📌 README**
-```md
+
 # 🚀 Softmax Exercise - Deep Learning Assignment
 
 This repository contains a hands-on coding exercise where you will **implement the Softmax function** in Python. This function is a crucial component in neural networks for multi-class classification.
