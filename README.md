@@ -34,7 +34,7 @@ docker build -t softmax-exercise .
 
 Use the appropriate command based on your operating system:
 
-#### **For Linux/macOS:**
+#### **For Linux/macOS or Git Bash (Windows):**
 ```sh
 docker run -p 8888:8888 -v $(pwd):/app softmax-exercise
 ```
