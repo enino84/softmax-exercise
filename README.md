@@ -24,6 +24,7 @@ In this exercise, you will:
 ```sh
 git clone https://github.com/YOUR_USERNAME/softmax-exercise.git
 cd softmax-exercise
+cd docker
 ```
 
 ### **2️⃣ Build the Docker Image**
@@ -51,10 +52,10 @@ Then, open **`softmax_exercise.ipynb`** and follow the instructions.
 softmax-exercise/
 │── docker/
 │   ├── Dockerfile        # Docker configuration
+│   ├── requirements.txt  # Dependencies for the project
 │── notebooks/
 │   ├── softmax_exercise.ipynb  # Jupyter Notebook with the exercise
 │── README.md             # Instructions for running the project
-│── requirements.txt      # Dependencies for the project
 │── .gitignore            # Ignore unnecessary files
 │── LICENSE (optional)    # Open-source license
 ```
