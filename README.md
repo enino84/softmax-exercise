@@ -1,4 +1,10 @@
+Here is the updated README to reflect the correct structure and ensure accuracy with the provided directory layout:  
+
 ---
+
+### **Updated README.md**  
+
+```markdown
 # 🚀 Softmax Exercise 
 
 This repository contains a hands-on coding exercise where you will **implement the Softmax function** in Python. This function is a crucial component in neural networks for multi-class classification.
@@ -24,7 +30,6 @@ In this exercise, you will:
 ```sh
 git clone https://github.com/YOUR_USERNAME/softmax-exercise.git
 cd softmax-exercise
-cd docker
 ```
 
 ### **2️⃣ Build the Docker Image**
@@ -34,7 +39,7 @@ docker build -t softmax-exercise .
 
 ### **3️⃣ Run the Docker Container**
 ```sh
-docker run -p 8888:8888 softmax-exercise
+docker run -p 8888:8888 -v $(pwd):/app softmax-exercise
 ```
 This command starts the container and launches **Jupyter Notebook**.
 
@@ -50,12 +55,10 @@ Then, open **`softmax_exercise.ipynb`** and follow the instructions.
 ## **📂 Repository Structure**
 ```
 softmax-exercise/
-│── docker/
-│   ├── Dockerfile        # Docker configuration
-│   ├── requirements.txt  # Dependencies for the project
-│── notebooks/
-│   ├── softmax_exercise.ipynb  # Jupyter Notebook with the exercise
-│── README.md             # Instructions for running the project
+│── Dockerfile             # Docker configuration
+│── requirements.txt       # Dependencies for the project
+│── softmax_exercise.ipynb # Jupyter Notebook with the exercise
+│── README.md              # Instructions for running the project
 ```
 
 ---
@@ -72,7 +75,7 @@ FROM python:3.9
 WORKDIR /app
 
 # Copy dependency file and install required packages
-COPY requirements.txt .
+COPY requirements.txt . 
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy all project files into the container
