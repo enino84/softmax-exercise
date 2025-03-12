@@ -100,7 +100,3 @@ This project is open-source under the **MIT License**.
 ---
 
 ### 🎉 You’re all set! Launch the container and start coding! 🚀
-```
-
----
-
