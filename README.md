@@ -1,4 +1,4 @@
-# 🚀 Softmax Exercise 
+# 🚀 Softmax Exercise
 
 This repository contains a hands-on coding exercise where you will **implement the Softmax function** in Python. This function is a crucial component in neural networks for multi-class classification.
 
@@ -31,9 +31,24 @@ docker build -t softmax-exercise .
 ```
 
 ### **3️⃣ Run the Docker Container**
+
+Use the appropriate command based on your operating system:
+
+#### **For Linux/macOS:**
 ```sh
 docker run -p 8888:8888 -v $(pwd):/app softmax-exercise
 ```
+
+#### **For Windows (PowerShell):**
+```powershell
+docker run -p 8888:8888 -v ${PWD}:/app softmax-exercise
+```
+
+#### **For Windows (CMD):**
+```cmd
+docker run -p 8888:8888 -v %cd%:/app softmax-exercise
+```
+
 This command starts the container and launches **Jupyter Notebook**.
 
 ### **4️⃣ Open the Jupyter Notebook**
@@ -68,7 +83,7 @@ FROM python:3.9
 WORKDIR /app
 
 # Copy dependency file and install required packages
-COPY requirements.txt . 
+COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy all project files into the container
@@ -85,13 +100,14 @@ CMD ["jupyter", "notebook", "--ip=0.0.0.0", "--port=8888", "--no-browser", "--al
 
 ## 🎯 Next Steps
 ✅ Implement the **Softmax function** inside `softmax_exercise.ipynb`.  
-✅ Run the provided **unit tests** inside `softmax_exercise.ipynb` to verify correctness.  
+✅ Run the provided **unit tests** to verify correctness.  
 
 ---
 
 ## 📜 License
 This project is open-source under the **MIT License**.
- 
+
 ---
 
 ### 🎉 You’re all set! Launch the container and start coding! 🚀
+
