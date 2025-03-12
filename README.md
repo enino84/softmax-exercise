@@ -56,8 +56,6 @@ softmax-exercise/
 │── notebooks/
 │   ├── softmax_exercise.ipynb  # Jupyter Notebook with the exercise
 │── README.md             # Instructions for running the project
-│── .gitignore            # Ignore unnecessary files
-│── LICENSE (optional)    # Open-source license
 ```
 
 ---
